@@ -2,4 +2,4 @@
   tasks:
   - get_url:
       url: "curl -fsSL https://get.docker.com -o get-docker.sh"
-      dest: "/root"
+      dest: "/root/"
