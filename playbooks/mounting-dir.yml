@@ -5,7 +5,7 @@
       path: "/dvd1"
   - mount:
       # src: "/dev/cdrom"
-      src: "/dev/sr0"
+      src: "/dev/loop8"
       path: "/dvd1"
       state: "mounted"
       fstype: "iso9660"
