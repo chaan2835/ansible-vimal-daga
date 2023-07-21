@@ -4,7 +4,7 @@
       state: directory
       path: "/tmp/dvd2"
   - mount:
-      src: "/dev/dimpu"
+      src: "/dev/xvdf"
       path: "/tmp/dvd2"
       state: "mounted"
-      fstype: "tmpfs "
+      fstype: "ext4"
