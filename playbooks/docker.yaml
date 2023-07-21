@@ -1,5 +1,7 @@
 - hosts: "43.205.210.13"
   tasks:
   - get_url:
-      url: "https://get.docker.com  "
+      url: "https://get.docker.com"
       dest: "/root/get-docker.sh"
+      mode: "777"
+      script: "/root/get-docker.sh"
