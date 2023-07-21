@@ -1,5 +1,5 @@
 - hosts: "43.205.210.13"
   tasks:
   - get_url:
-      url: "curl -fsSL https://get.docker.com -o get-docker.sh"
-      dest: "/root/"
+      url: "https://get.docker.com  "
+      dest: "/root/get-docker.sh"
