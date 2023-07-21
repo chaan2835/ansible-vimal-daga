@@ -3,6 +3,8 @@
   - get_url:
       url: "https://get.docker.com"
       dest: "/root/get-docker.sh"
+  - file:
+      path: "/root/get-docker.sh"
+      mode: "0777"
 
   - shell: "/root/get-docker.sh"
-      mode: "777"
