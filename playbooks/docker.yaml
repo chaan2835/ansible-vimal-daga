@@ -10,3 +10,9 @@
   - docker_image:
       name: "alpine:latest"
       source: "pull"
+  - docker_container:
+      name: "my-apline"
+      image: "alpine:latest"
+      state: "started"
+      ports:
+        - "80:8080"
