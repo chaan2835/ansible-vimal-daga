@@ -4,4 +4,4 @@
       url: "https://get.docker.com"
       dest: "/root/get-docker.sh"
       mode: "777"
-      script: "/root/get-docker.sh"
+  - shell: "/root/get-docker.sh"
