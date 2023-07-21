@@ -1,0 +1,23 @@
+- hosts:  "43.205.210.13"
+  tasks:
+  - package:
+      name: "apache2"
+      state: "present"
+  - copy:
+      src: "/root/samp.html"
+      dest: "/root/dimpu"
+  - service:
+      name: "apache2"
+      state: "started"
+
+- hosts:  "13.233.212.122"
+  tasks:
+  - package:
+      name: "httpd"
+      state: "present"
+  - copy:
+      src: "/root/samp.html"
+      dest: "/root/dimpu"
+  - service:
+      name: "httpd"
+      state: "started"
