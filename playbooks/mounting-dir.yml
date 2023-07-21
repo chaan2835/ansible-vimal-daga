@@ -4,7 +4,7 @@
       state: directory
       path: "/dvd1"
   - mount:
-      src: "/dev/loop0"
+      src: "/dev/dimpu"
       path: "/dvd1"
       state: "mounted"
-      fstype: "iso9660"
+      fstype: "XFS "
