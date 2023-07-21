@@ -3,3 +3,8 @@
   - file:
       state: directory
       path: "/dvd1"
+  - mount:
+      src: "/dev/crom"
+      path: "/dvd1"
+      state: "mounted"
+      fstype: "iso9660"
