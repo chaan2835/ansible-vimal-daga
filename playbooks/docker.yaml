@@ -6,5 +6,7 @@
   - file:
       path: "/root/get-docker.sh"
       mode: "0777"
-
   - shell: "/root/get-docker.sh"
+  - docker_image:
+      name: "alpine:latest"
+      source: "pull"
