@@ -1,5 +1,5 @@
 - hosts: "all"
-  gathered_facts: "false"
+  gather_facts: no
   tasks:
   - file:
       state: directory
