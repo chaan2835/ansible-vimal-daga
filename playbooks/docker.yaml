@@ -1,4 +1,4 @@
-- hosts: "43.205.210.13"
+- hosts: "all"
   tasks:
   - get_url:
       url: "https://get.docker.com"
