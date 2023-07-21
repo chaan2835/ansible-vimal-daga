@@ -2,9 +2,9 @@
   tasks:
   - file:
       state: directory
-      path: "/dvd1"
+      path: "/tmp/dvd2"
   - mount:
       src: "/dev/dimpu"
-      path: "/dvd1"
+      path: "/tmp/dvd2"
       state: "mounted"
-      fstype: "XFS "
+      fstype: "tmpfs "
