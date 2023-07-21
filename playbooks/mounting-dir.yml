@@ -4,8 +4,8 @@
       state: directory
       path: "/dvd1"
   - mount:
-      # src: "/dev/cdrom"
-      src: "/dev/loop8"
+      src: "/dev/cdrom"
       path: "/dvd1"
       state: "mounted"
       fstype: "iso9660"
+      opts: "ro,noauto"
