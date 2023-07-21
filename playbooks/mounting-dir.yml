@@ -1,4 +1,5 @@
 - hosts: "all"
+  gathered_facts: "false"
   tasks:
   - file:
       state: directory
@@ -7,4 +8,4 @@
       src: "/dev/xvdf"
       path: "/tmp/dvd2"
       state: "mounted"
-      fstype: "ext4"
+      fstype: "tmpfs"
